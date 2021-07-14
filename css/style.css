@@ -1,0 +1,123 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Header area style */
+header{
+    background-color:#2D25A0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 86px;
+}
+.header-content{
+    color: white;
+    max-width: 485px;
+    margin-right: 7px;
+}
+.header-content h1{
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+.header-content a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.header-content i{
+    margin-left: 8px;
+}
+.header-image{
+    margin-left: 7px;
+}
+.header-image img{
+    width: 556px;
+    height: 438px;
+    transition: transform 2s ease-in-out;
+}
+
+.header-container:hover .header-image img{
+    transform: rotate(360deg);
+}
+
+
+/* main style start */
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-players{
+    padding: 70px 12.5%;
+}
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.player{
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 15px solid #FFFFFF ;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%
+}
+.player-name{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+
+}
+/* bonus style */
+
+/* Footer style  */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 65px 0;
+  }
+  .logo-img{
+    width: 20%;
+  }
+  .social-links ul {
+    display: flex;
+  }
+  .social-links ul li {
+    list-style: none;
+    margin-right:14px;
+  }
+  .social-links ul li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: rgba(150, 155, 171, 1);
+    background-color: rgba(11, 13, 23, 0.089);
+    
+  }
